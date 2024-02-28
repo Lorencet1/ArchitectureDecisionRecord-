@@ -1,0 +1,14 @@
+# Backend Language
+
+# Title: Adoption of Node.js for Backend Services 
+
+# Status: Accepted
+
+# Context
+A robust backend is essential for handling the app's data processing, real-time communication, and business logic efficiently.
+
+# Decision
+Node.js is chosen as the backend programming language due to its event-driven architecture and non-blocking I/O model, making it well-suited for real-time applications like ours that require efficient data processing and can handle multiple concurrent connections. 
+
+# Consequences
+Choosing Node.js enhances our backends’ capability to manage real-time data and concurrent processes efficiently, leveraging JavaScript across the full stack for a unified development experience. While Node.js is highly scalable and performs well under most conditions, specific use cases requiring ultra-high performance may benefit from supplemental optimization strategies or the integration of additional technologies tailored to those demands.

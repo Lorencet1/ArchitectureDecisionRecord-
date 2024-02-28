@@ -1,1 +1,13 @@
 # ArchitectureDecisionRecord-
+
+Scenario 4
+
+You are part of a team that has been tasked with creating a mobile app for a modern transportation company. The app will allow users to book and track rides, view driver details and ride history, and make payments. The app must provide authentication and keep track of both the driver and passenger's location. The following requirements must be considered:
+1.	To enable ride booking and tracking, the app needs to incorporate geolocation services. The team should decide on the most suitable geolocation service provider, such as Google Maps or Mapbox, based on factors like accuracy, coverage, and cost.
+2.	To track the driver and passenger locations in real-time, the app requires continuous updates. The team should consider using technologies like WebSocket or server-sent events to establish a real-time connection between the app and the server for seamless location updates.
+3.	The app should provide a map interface to display ride routes, estimated arrival times, and driver locations. The team should choose a mapping service and routing algorithm that meets the transportation company's requirements, considering factors such as accuracy, traffic data, and customization options.
+4.	To facilitate secure and convenient payment transactions, the app needs to integrate with one or more payment gateways. The team should evaluate different payment gateway options based on security, ease of use, supported regions, and transaction fees.
+5.	The app should implement a secure authentication and authorization system for both drivers and passengers. The team needs to decide on the authentication mechanisms, such as email/password, social login, or two-factor authentication, and ensure proper authorization rules are enforced.
+6.	To store user profiles, ride history, and payment information, the team needs to design an appropriate database schema. Considerations should include data integrity, scalability, and efficient querying to provide a seamless user experience.
+7.	To notify users about ride confirmations, driver updates, and important announcements, the app should incorporate a push notification system. The team should choose a push notification service provider that supports both iOS and Android platforms and offers features like personalization and message targeting.
+8.	As the app will handle sensitive user information and transactions, implementing robust security measures is crucial. The team needs to ensure secure communication over networks, implement encryption techniques, and adhere to industry standards and best practices.
